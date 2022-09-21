@@ -48,24 +48,36 @@ a,b,c,d=my_tuple
 print(a,b,c,d)
 
 #################################################sets######################################################
-
+#sets are a mutable data structure
+#for storing information whose elements
+#do not repeat
+#2 ways of doing sets
+set1=set((1,1,1,2,3,4))
+print(set1)
+set2={1,1,1,1,2,2,2,3,3,3,4,4,4}
+print(set2)
+print(4 in set2)
 
 # Join the following sets into one, called my_set_3:
 
-{1, 2, "three", "four"}
+set= {1, 2, "three", "four"}
 
-{"three", 4, 5}
-
+set0 = {"three", 4, 5}
+set3=set.union(set0)
+print(set3)
 
 # Remove a random item from the following set, using set methods.
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
-
+raffle.remove("Monica")
+print(raffle)
 
 
 # Add the name Gunther to the following set, using set methods:
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
+raffle.add("Gunther")
+print(raffle)
 
 #################################################booleans######################################################
 # booleans
