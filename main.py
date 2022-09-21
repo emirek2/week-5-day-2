@@ -77,6 +77,7 @@ print(raffle)
 
 raffle = {"Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"}
 raffle.add("Gunther")
+raffle.add(123)
 print(raffle)
 
 #################################################booleans######################################################
