@@ -152,6 +152,7 @@ print(warrior['budget'])
 warrior['score']=78
 print(warrior.keys())
 print(warrior.items())
+print(warrior.values())
 
 
 #challenge 1
@@ -161,6 +162,16 @@ print(warrior.items())
 # age: 35
 # occupation: Journalist
 # The names of the keys and values must be equal to the ones indicated above.
+
+my_dict={'name':'Karen',
+        'last_name':'Jurgens',
+        'age':35,
+        'job':'Journalist'}
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())
+
+
 
 #challenge 2:
 # Use print to returns the second item of the list called points2, inside the following dictionary.
