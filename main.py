@@ -26,7 +26,9 @@ t = (1, 2, 3)
 x,y,z=t
 print(x,y,z)
 #get me the length of the above tuple --- there are two ways of doing this... len(), count()...  use count if you want to get how many times an item appears in a tuple
-
+print(len(my_tuple))
+my_tuple3=(1,2,3,3,4,5,6,7,7,7,8,9,10)
+print(my_tuple3.count(2))
 # Use a tuple method to count the number of times the value 2 appears in the following tuple, and display the result (integer) on the screen:
 
 my_tuple = (1, 2, 3, 2, 3, 1, 3, 2, 3, 3, 3, 1, 3, 2, 2, 1, 3, 2)
